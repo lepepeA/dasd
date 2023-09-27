@@ -1,0 +1,64 @@
+EN VISUAL ESTUDIO CODE SI NECESITO TEXTO DE PRUEBA SOLO PONGO lorem(numero de palabras que quiero) ejemp lorem40
+python
+- NO ES NECESARIO DECLARAR SI LOS DATOS SON STRING O DIGITOS
+- MOSTRAR TEXTO: print("wasa") 
+- bajar una linea en el texto final \n 
+ejemp: print("el pepe\n wasa")
+- bool: solo puede ser true o false
+- float: aquellos positivos o negativos
+- complex: tienen una parte real o imaginaria , x= ?
+- string: textos a caracteres
+EJEMPLO DE COMO SE PONDRIAN LOS FLOAT BOOL O EL RESTO EN EL CODIGO: ejemplo = float(input("aca hago una pregunta para que pueda recibir el input")
+"mensaje.find("ejemplo") " de el string "mensaje" y mensaje = el pepe ejemplo seria: 8
+en codigo seria:
+mensaje = "el pepe ejemplo"
+- buscar_subcadena = mensaje.find ("ejemplo")
+print(buscar_subcadena)
+entonces saldria: 8 ya que desde el caracter 8 sale la primera E de ejemplo, el primer caracter sera 0 siempre
+- Si a un texto quiero ponerte un caracter deberia ser:
+print ("el resultado es: " +resultado) el + es importante sino no funciona  ya q indica que se agrega el resultado a el texto print
+- los caracteres se pueden poner al inicio sin necesidad de poner double
+- Las funciones en Python se definen con la palabra clave “def”, seguida del nombre de
+- la función y una lista de parámetros entre paréntesis. El cuerpo de la función se escribe indentado y
+contiene el código que se ejecutará cuando se llame a la función.
+el " != " significa Distinto de, por eso se utiliza cuando se hacen divisiones en python o c++ se pone ese digito 
+en las sentencias "if" se puede poner mas de una instruccion solo tiene que estar abajo y para salir del "if" lo ponemos sin intentado ejemp
+if (ejemplo):
+    instruccion2
+    instruccion3
+    instruccion4
+instruccion5
+a diferencia de c++ en python no hay case's o operadores similares
+- "==" significa ¿ son iguales? o es una COMPARACION
+la "intruccion5" no es una instruccion de verdad en la sentencia if ya que no tiene intentado
+En los procesos range normalmente tiene 3 digitos
+ejemp range(1o,0,-1) el primero digito es donde empieza el segundo donde acaba y el tercero muestra si crece o decrece
+- el codigo .lower() hacer que cada input que le des al programa convertira todas las palabras en minuscula
+c++
+MOSTRAR TEXTO: count << "wasa";
+string: textos a caracteres
+HTML:
+- el <!DOCKTYPE html> informa al navegador que version de html se uso para escribir el documento, recuerda que existe hata el html5
+-<html lange="es"> significa el lenguaje en el cual estara la pagina que voy a crear, si alguien busca informacion en el idioma en el que 
+esta eso la pag aparecera primero, todo el titulo texto y parrafos se debe poner entre el lange="es" y el </html> que sale
+-<head> es el nombre de la pag, no confundir con el titulo, normalmente adentro se pone <title> "ejemplo" </title>
+-<body> es todo lo que teoricamente deberia salir en la pantalla apenas abres el navegador SOLO ES UN REPASO DE HTML RECUERDA NO TOMARLO TODO LITERAL
+-<h1>, <h2>, hasta <h5> son formas de poner el titulo de un texto o parrafo, el h1 es el mas grande.
+-<p> es para poner texto significa parrafo literalmente
+-<meta> name= sirve para poner etiquetas como en la descripcion de los videos de yutu
+-<meta> charset="utf-8" es para poner mas que caracteres ejem: simbolos emoticonos
+- <header> es una etiqueta que no cambia nada es solo para introducir el encabezadoy
+- <ul>   (unorder list)  etiquetas que sirven para colocar items adentro de la etiqueta ul se usa <li>
+- <nav> representa una seccion de una pagina cuyo proposito es proporcionar enlaces de navegacion 
+-<section> sirve para diferenciar parrafos de textos, instrucciones contenidos etc
+-<time> como dice el nombre es para poner fechas 
+-<aside> sirve para poner textos al lado, en el html se mostrara como texto normal abajo  pero se cambia con cs
+-<footer> es el pie de pagina , es muy importante
+- <hgroup> se usa para agrupar titulos y encabezados, el titulo de la pagina es el principal y debe haber jerarquia por eso se usa hgroup
+- <blockquote> es para poner citas de texto 
+- <a>  SIRVE PARA ABRIR LINKS 
+EJEMPLO: <a href=" aca va el link"> visita el sitio <a>
+- <adress> es para decirle al navegador que dirige hacia otra pag, cambia el texto a cursiva
+-<img src="nombre de la imagen.png"/> como se muestra es para poner imagenes, debe estar en la misma carpeta que el trabajo, sino se puede poner su 
+direccion de carpeta como nombre_dela_carpeta/imagen.png
+-<small> es para hacer el texto mas pequeño se usa dentro de los <p> 

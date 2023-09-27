@@ -1,0 +1,45 @@
+<html>
+	<script>
+		function suma(a, b) {
+		    return a + b;
+		}
+
+		function resta(a, b) {
+		    return a - b;
+		}
+
+		function multiplicacion(a, b) {
+		    return a * b;
+		}
+
+		function division(a, b) {
+		    if (b !== 0) {
+		        return a / b;
+		    } else {
+		        return "Error: No se puede dividir por cero.";
+		    }
+		}
+
+		console.log("Calculadora JavaScript");
+
+		var num1 = parseFloat(prompt("Ingrese el primer número:"));
+		var operador = prompt("Ingrese el operador (+, -, *, /):");
+		var num2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+		var resultado;
+
+		if (operador === '+') {
+		    resultado = suma(num1, num2);
+		} else if (operador === '-') {
+		    resultado = resta(num1, num2);
+		} else if (operador === '*') {
+		    resultado = multiplicacion(num1, num2);
+		} else if (operador === '/') {
+		    resultado = division(num1, num2);
+		} else {
+		    resultado = "Operador no válido.";
+		}
+
+		console.log("El resultado es:", resultado);
+	</script>
+</html>
